@@ -33,7 +33,6 @@ void setLastName(String lN){
 	lastName=lN;
 }
 
-
 String getIndex(){
 	return index;
 }
@@ -48,6 +47,11 @@ String getLastName(){
 
 public double getAverage() {
 	//TODO
+	int prosek;
+	int n;
+	for (int i=0;i<n;i++){
+		prosek = grades/n;
+	}
 
 }
 
