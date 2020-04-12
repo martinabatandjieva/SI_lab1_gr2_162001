@@ -1,0 +1,15 @@
+class Faculty{
+	Students student;
+	char ime;
+
+Faculty(){};
+
+
+
+public double getAverageECTS(){
+
+}
+
+public int addStudent(){
+ 
+}
