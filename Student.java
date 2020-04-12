@@ -2,16 +2,57 @@ class Student {
 	String index;
 	String firstName;
 	String lastName;
+	char grades;
+	
+//TODO constructor
 
-	//TODO constructor
+Student(){
+	index=" ";
+	firstName=" ";
+	lastName=" ";
+	grades=" ";
+};
 
-	//TODO seters & getters
 
-	public double getAverage() {
-		//TODO
-	}
+Student(const Student& s){
+	strcpy(this->index=s.index;)
+	strcpy(this->firstName,s.firstName);
+	strcpy(this->lastName,s.lastName);
+	strcpy(this->grades,s.grades);
+}
+~Student()
 
-	public int ECTSCredits() {
-		//TODO
-	}
+//TODO seters & getters
+void setIndex(String i){
+	index=i;
+}
+void setFirstName(String fN){
+	firstName=fN;
+}
+void setLastName(String lN){
+	lastName=lN;
+}
+
+
+String getIndex(){
+	return index;
+}
+
+String getFirstNAme(){
+	return firstName;
+}
+String getLastName(){
+	return lastName;
+}
+
+
+public double getAverage() {
+	//TODO
+
+}
+
+public int ECTSCredits() {
+	//TODO
+
+}
 }
